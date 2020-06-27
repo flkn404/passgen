@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 valchars='^[1-9]+$'
 
