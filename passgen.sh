@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-valchars='^[1-9]+$'
+valchars='^[0-9]+$'
 
 if ! [[ $1 =~ $valchars ]] || [[ $# -eq 0 ]] ; then
     echo 'usage: '$0' number-of-characters'
